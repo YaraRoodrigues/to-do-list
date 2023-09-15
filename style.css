@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    outline: none;
+
+
+}
+
+body{
+    height: 100vh;
+    background-image: url("img/vector-jan-2021-19_generated.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100% ;
+
+   
+}
+
+.container{
+background-color: rgb(255, 255, 255);
+width: 489px;
+border-radius: 10px;
+padding: 20px;
+margin: auto;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+min-width: 320px;
+max-width: 1000px;
+
+}
+
+
+.input-task{
+border: none;
+border-radius: 5px;
+width: 300px;
+height: 40px;
+padding-left: 10px;
+font-size: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button-task{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #343333;
+    color: #ffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    padding: 0 15px;
+    float:right;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.button-task:hover{
+    opacity: 0.8;
+
+}
+.button-task:active{
+  opacity: 0.6;  
+}
+
+.list-tasks{
+    width: 100%;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.task{
+    background-color: #cdd1ccd6;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.828);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0)
+
+    
+}
+
+
+
+img{
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s  ease-in-out;
+}
+
+.task:hover img{
+    opacity: 1;
+}
+
+.done{
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
+
+h1{
+    color: rgb(244, 244, 235);
+    text-align: center;
+    padding-top: 60px;
+    padding-left: -30px;
+    margin: auto;
+    text-decoration: line-through;
+    font-family: 'Lora', serif;
+}
+footer{
+    color: rgb(235, 232, 232);
+    text-align: center;
+    font-style: italic;
+    
+}
